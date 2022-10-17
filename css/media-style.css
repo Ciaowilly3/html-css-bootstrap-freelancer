@@ -1,0 +1,11 @@
+@media screen and (min-width:576px) {
+    .avatar-container{
+        flex-basis: 25%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .avatar-container{
+        flex-basis: 19%;
+    }
+}
