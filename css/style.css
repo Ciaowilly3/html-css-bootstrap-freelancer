@@ -16,3 +16,7 @@ section{
 .avatar-container{
     flex-basis: 60%;
 }
+
+.copyright{
+    background-color: midnightblue;
+}
