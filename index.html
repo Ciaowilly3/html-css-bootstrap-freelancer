@@ -271,16 +271,35 @@
 
                     </div>
 
-                    <ul>
-                        <li><a href="#">Name</a></li>
-                        <li><a href="#">Email Address</a></li>
-                        <li><a href="#">Phone Number</a></li>
-                        <li><a href="#">Message</a></li>
-                    </ul>
+                    <form>
+                        <div class="form-floating mb-2">
+                          <input type="email" class="form-control border-flush" id="floatingInput" placeholder="name@example.com">
+                          <label for="floatingInput">Name</label>
+                        </div>
+          
+                        <div class="form-floating mb-2">
+                          <input type="email" class="form-control border-flush" id="floatingInput" placeholder="name@example.com">
+                          <label for="floatingInput">Email address</label>
+                        </div>
+          
+                        <div class="form-floating mb-2">
+                          <input type="email" class="form-control border-flush" id="floatingInput" placeholder="name@example.com">
+                          <label for="floatingInput">Phone Number</label>
+                        </div>
+          
+                        <div class="form-floating mb-5">
+                          <textarea class="text-height form-control border-flush " id="floatingInput" 
+                          placeholder="name@example.com">
+                          </textarea>  
+                          <label for="floatingtextarea">Message</label>
+                        </div>
+          
+                      </form>
 
-                    <hr>
 
-                    <button>send</button>
+                    <button class="btn bg-my-primary border-0 text-white">
+                        Send
+                    </button>
                 </div>
             </section>
 
