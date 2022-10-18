@@ -6,6 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bootstrap</title>
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/media-style.css">
@@ -14,27 +17,38 @@
     <body>
         <!-- nell'header inserisco la nav e i div che avranno dentro il "content" -->
         <header>
-            <nav class="bg-dark">
-                <div class="container py-3">
-                    <div class="d-flex justify-content-between">
 
-                        <div class="content">
+            <div class="container py-3">
+                <div class="d-flex justify-content-between align-items-center">
 
-                        </div>
-
-                        <div class="content">
-
-                        </div>
-
+                    <div>
+                        <h5>START BOOTSTRAP</h5>
                     </div>
+
+                    <div>
+                        <button class="btn border d-sm-none">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <nav class="navbar">
+                        
+                            <ul class="navbar-nav d-none d-sm-flex list-group-horizontal ">
+                                <li class="list-inline-item"><a href="#">PORTFOLIO</a></li>
+                                <li class="list-inline-item"><a href="#">ABOUT</a></li>
+                                <li class="list-inline-item"><a href="#">CONTACT</a></li>
+                            </ul>
+
+                        </nav>    
+                    </div>
+
                 </div>
-            </nav>
+            </div>
+
         </header>
 
         <main>
 
             <!-- divido il main in section, prima section-->
-            <section class="bg-success">
+            <section class="bg-my-primary">
 
                 <div class="container">
                     <div class="d-flex justify-content-center">
@@ -49,6 +63,7 @@
 
                         <h1 class="text-white">START BOOTSTRAP</h1>
 
+
                     </div>
 
                     <!-- row con striscie e stellina probabilmente da sistemare -->
@@ -56,19 +71,19 @@
                     <div class="row border border-3 border-dark justify-content-center">
                         
                         <div class="col-2 col-sm-3 text-center">
-                            <div class="content">
+                            <div class="white-bar">
 
                             </div>
                         </div>
                         
                         <div class="col-2 text-center">
-                            <div class="content">
-                                
+                            <div class="star-container">
+                                <i class="fa-solid fa-star"></i>
                             </div>
                         </div>
                         
                         <div class="col-2 col-sm-3 text-center">
-                            <div class="content">
+                            <div class="white-bar">
     
                             </div>
                         </div>
