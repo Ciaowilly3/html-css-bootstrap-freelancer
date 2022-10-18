@@ -89,8 +89,9 @@ h1{
 }
 
 .p-container{
-    width: 65%;
-    margin: auto;
+    width: 75%;
+    margin: 0 auto;
+    padding: 0 8px;
 }
 
 /* QUARTA SEZIONE */
@@ -105,9 +106,36 @@ h1{
     height: 150px;
 }
 
+.lil-container{
+    width: 75%;
+    margin: auto;
+    padding: 0 8px;
+}
 
+/* STILI FOOTER */
 
+footer{
+    background-color: #3a546d;
+}
+
+.footer-container{
+    width: 80%;
+    margin: auto;
+}
+
+footer h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer .social button{
+    aspect-ratio: 1 / 1;
+}
+
+footer .social button i{
+    width: 20px;
+}
 
 .copyright{
-    background-color: midnightblue;
+    background-color: var(--var-secondary-color);
 }
